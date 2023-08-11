@@ -49,41 +49,43 @@
             </div>
         </nav>
         <div class="container">
-            <h1>Contact</h1>
-            <hr>
-            <label for="choose">Choose your purpose</label>
-            <select name="pick" id="pick">
-                <option value="sell">I want to sell books</option>
-                <option value="sell">I want to buy books</option>
-            </select>
-            <div id = "preferences">
-                <label for="prefer">Contact Preference:</label>
-                <label class="prefer">By mail
-                    <input type="checkbox" checked="checked">
-                    <span class="checkmark"></span>
-                </label>
-                <label class="prefer">By phone
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
-            </div>
-            <label for="prefer">Do you want to receive weekly newsletter?</label>
-            <form action="#">
-            <p>
-                <input type="radio" id="test1" name="radio-group" checked>
-                <label for="test1">Yes</label>
-            </p>
-            <p>
-                <input type="radio" id="test2" name="radio-group">
-                <label for="test2">No</label>
-            </p>
+            <form action="" method="get">
+                <h1>Contact</h1>
+                <hr>
+                <label for="choose">Choose your purpose</label>
+                <select name="pick" id="pick">
+                    <option value="sell">I want to sell books</option>
+                    <option value="sell">I want to buy books</option>
+                </select>
+                <div id = "preferences">
+                    <label for="prefer">Contact Preference:</label>
+                    <label class="prefer">By mail
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="prefer">By phone
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <label for="prefer">Do you want to receive weekly newsletter?</label>
+                <p>
+                    <input type="radio" id="test1" name="radio-group" checked>
+                    <label for="test1">Yes</label>
+                </p>
+                <p>
+                    <input type="radio" id="test2" name="radio-group">
+                    <label for="test2">No</label>
+                </p>
+                <p>
+                    <label for="name"><input type="name" id="name" placeholder="Please enter your name"></label>
+                    <label for="email"><input type="email" id="email" placeholder="Please enter your email"></label>
+                    <label for="phone"><input type="number" id="phone" placeholder="Phone number"></label>
+                    <label for="mensaje"><textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Leave us a message."></textarea></label>
+                    <button type="submit" value="Submit">Submit</button>
+                    <button type="reset" value="Reset">Reset</button>
+                </p>
             </form>
-            <label for="name"><input type="name" id="name" placeholder="Please enter your name"></label>
-            <label for="email"><input type="email" id="email" placeholder="Please enter your email"></label>
-            <label for="phone"><input type="number" id="phone" placeholder="Phone number"></label>
-            <label for="mensaje"><textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Leave us a message."></textarea></label>
-            <input type="submit" value="Submit">
-            <input type="submit" value="Reset">
         </div>
     </header>
 </body>
