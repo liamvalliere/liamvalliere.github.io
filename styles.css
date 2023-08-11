@@ -200,8 +200,8 @@
 
 #bookprice {
     position: absolute;
-    top: 435px;
-    left: 680px;
+    top: 455px;
+    left: 700px;
     display: flex;
 }
 
@@ -212,8 +212,8 @@
     margin-top: 10px;
     border: none;
     cursor: pointer;
-    top: 540px;
-    left: 730px;
+    top: 560px;
+    left: 750px;
     position: absolute;
     display: flex;
 }
