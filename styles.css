@@ -200,7 +200,7 @@
 
 #bookprice {
     position: absolute;
-    top: 415px;
+    top: 435px;
     left: 680px;
     display: flex;
 }
@@ -212,7 +212,7 @@
     margin-top: 10px;
     border: none;
     cursor: pointer;
-    top: 520px;
+    top: 540px;
     left: 730px;
     position: absolute;
     display: flex;
