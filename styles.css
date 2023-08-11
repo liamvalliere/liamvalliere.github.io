@@ -344,6 +344,16 @@ input[type="submit"]{
     border-radius: 10px;
     cursor: pointer;
 }
+input[type="reset"]{
+    display:block;
+    margin: 4% auto;
+    width: 30%;
+    height: 4vh;
+    background-color: #120A19;
+    color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+}
 
 textarea{
     display: block;
